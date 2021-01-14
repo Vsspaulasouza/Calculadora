@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+    <section class="calculator">
+        <div class="header">
+            <h1 class="calculator-title">Calculadora</h1>
+            <div class="header-main">
+                <p id="screen"></p>
+                <button class="btn" data-operacao="simples" id="apagar">←</button>
+            </div>
+        </div>
+        <div class="teclado">
+            <button class="btn" data-operacao="simples" id="clear">C</button>
+            <button class="btn" data-operacao="simples" id="oposto">±</button>
+            <button class="btn" data-operacao="complexa" id="porcentagem">%</button>
+            <button class="btn special" data-operacao="complexa" id="divisao">÷</button>
+            <button class="btn" data-number="true" id="sete">7</button>
+            <button class="btn" data-number="true" id="oito">8</button>
+            <button class="btn" data-number="true" id="nove">9</button>
+            <button class="btn special" data-operacao="complexa" id="multiplicacao">x</button>
+            <button class="btn" data-number="true" id="quatro">4</button>
+            <button class="btn" data-number="true" id="cinco">5</button>
+            <button class="btn" data-number="true" id="seis">6</button>
+            <button class="btn special" data-operacao="complexa" id="subtracao">-</button>
+            <button class="btn" data-number="true" id="um">1</button>
+            <button class="btn" data-number="true" id="dois">2</button>
+            <button class="btn" data-number="true" id="tres">3</button>
+            <button class="btn special" data-operacao="complexa" id="soma">+</button>
+            <button class="btn" data-number="true" id="virgula">,</button>
+            <button class="btn" data-number="true" id="zero">0</button>
+            <button class="btn special" id="igual">=</button>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+</html>
