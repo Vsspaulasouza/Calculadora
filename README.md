@@ -35,10 +35,6 @@ Para visualizar a aplicação, acesse:
 ## 🏁 Rodando o projeto <a name = "getting_started"></a>
  
 Siga as seguintes instruções para rodar a aplicação em sua máquina.
- 
-### Pré-requisito
- 
-Siga as seguintes instruções para rodar a aplicação em sua máquina.
 
 Faça o clone do projeto:
 
@@ -46,7 +42,7 @@ Faça o clone do projeto:
 gh repo clone Vsspaulasouza/Calculadora
 ```
 
-Após issoc você pode executá-lo direto no navegador abrindo o arquivo index.html ou a partir da extenção [LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) no VSCode.
+Após isso você pode executá-lo direto no navegador abrindo o arquivo index.html ou a partir da extenção [LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) no VSCode.
 
 ---
 
